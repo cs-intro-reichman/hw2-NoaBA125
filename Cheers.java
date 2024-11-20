@@ -4,11 +4,13 @@ public class Cheers {
 	    String s = args[0];
             int l = s.length();
             String n = "AEFHILMNORSX";
+            String nSmall = "aefhilmnorsx";
             int cheer = Integer.parseInt(args[1]);
 
             for (int i = 0; i < l; i++) {
                 char m = s.charAt(i);
-                if (n.indexOf(m) != -1) {
+                char mSmall = s.charAt(i);
+                if (n.indexOf(m) != -1 || nSmall.indexOf(mSmall) != -1) {
                         System.out.println("Give me an " + m + ": " + m + "!");
                 } else {
                         System.out.println("Give me a " + m + ": " + "!");
