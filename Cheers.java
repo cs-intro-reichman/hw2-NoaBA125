@@ -27,4 +27,3 @@ public class Cheers {
             }
         }
 }
-Give me a  G: G!%0AGive me an O: O!%0AWhat does that spell?%0AGO!!!%0AGO!!!%0AGO!!!
