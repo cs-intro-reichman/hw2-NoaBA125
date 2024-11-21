@@ -15,7 +15,7 @@ public class Cheers {
                         System.out.println("Give me an " + M + ": " + M + "!");
                 } else {
                         char M = Character.toUpperCase (m);
-                        System.out.println("Give me a " + M + ": " + M + "!");
+                        System.out.println("Give me a  " + M + ": " + M + "!");
                 }
  
             }
